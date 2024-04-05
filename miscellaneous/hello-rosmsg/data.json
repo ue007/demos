@@ -1,0 +1,71 @@
+[
+  {
+    "definitions": [
+      {
+        "type": "geometry_msgs/Point",
+        "isArray": false,
+        "name": "position",
+        "isComplex": true
+      },
+      {
+        "type": "geometry_msgs/Quaternion",
+        "isArray": false,
+        "name": "orientation",
+        "isComplex": true
+      }
+    ]
+  },
+  {
+    "name": "geometry_msgs/Point",
+    "definitions": [
+      {
+        "type": "float64",
+        "isArray": false,
+        "name": "x",
+        "isComplex": false
+      },
+      {
+        "type": "float64",
+        "isArray": false,
+        "name": "y",
+        "isComplex": false
+      },
+      {
+        "type": "float64",
+        "isArray": false,
+        "name": "z",
+        "isComplex": false
+      }
+    ]
+  },
+  {
+    "name": "geometry_msgs/Quaternion",
+    "definitions": [
+      {
+        "type": "float64",
+        "isArray": false,
+        "name": "x",
+        "isComplex": false
+      },
+      {
+        "type": "float64",
+        "isArray": false,
+        "name": "y",
+        "isComplex": false
+      },
+      {
+        "type": "float64",
+        "isArray": false,
+        "name": "z",
+        "isComplex": false
+      },
+      {
+        "type": "float64",
+        "isArray": false,
+        "name": "w",
+        "isComplex": false
+      }
+    ]
+  }
+]
+[{"definitions":[{"name":"position","type":"geometry_msgs/Point","isComplex":true,"isArray":false},{"name":"orientation","type":"geometry_msgs/Quaternion","isComplex":true,"isArray":false}]},{"name":"geometry_msgs/Point","definitions":[{"name":"x","type":"float64","isComplex":false,"isArray":false},{"name":"y","type":"float64","isComplex":false,"isArray":false},{"name":"z","type":"float64","isComplex":false,"isArray":false}]},{"name":"geometry_msgs/Quaternion","definitions":[{"name":"x","type":"float64","isComplex":false,"isArray":false},{"name":"y","type":"float64","isComplex":false,"isArray":false},{"name":"z","type":"float64","isComplex":false,"isArray":false},{"name":"w","type":"float64","isComplex":false,"isArray":false}]}]

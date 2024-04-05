@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<script type="text/javascript" src="roslite.bundle.js"></script>
+		<script type="text/javascript" src="three.min.js"></script>
+		<script type="text/javascript" src="Gimbal.js"></script>
+		<script type="text/javascript" src="imuNode.js"></script>
+		<script type="text/javascript" src="gpsNode.js"></script>
+	</head>
+	<body>
+		<div id="imuDisplay">(waiting for message to /imu/data ...)</div>
+		<div id="gpsDisplay">(waiting for message to /gps/fix ...)</div>
+
+		<script>
+			window.onload = function () {
+				// "rostopic echo /gps/fix"
+				(() => {
+					let nh = ros.initNode('echo_gps');
+					let gpsDisplay = document.getElementById('gpsDisplay');
+					let onData = (msg) => {
+						console.log('recevied gps message:', msg);
+						gpsDisplay.innerHTML = json2html(msg);
+					};
+					nh.subscribe('/gps/fix', 'sensor_msgs/NavSatFix', onData);
+				})();
+
+				// "rostopic echo /imu/data"
+				(() => {
+					let nh = ros.initNode('echo_imu');
+					let imuDisplay = document.getElementById('imuDisplay');
+					let onData = (msg) => {
+						console.log('recevied imu message:', msg);
+						imuDisplay.innerHTML = json2html(msg);
+					};
+					nh.subscribe('/imu/data', 'sensor_msgs/Imu', onData);
+				})();
+
+				let json2html = function (msg) {
+					return JSON.stringify(msg, null, 2).replace(/\n/g, '<br>').replace(/ /g, '&nbsp;');
+				};
+			};
+		</script>
+	</body>
+</html>
