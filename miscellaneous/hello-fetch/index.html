@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JavaScript | fetch() Method</title>
+		
+	</head>
+	<body>
+		<input placeholder="Click here, then press down a key." size="40" />
+		<p id="log"></p>
+		<script>
+
+			const input = document.querySelector('input');
+			const log = document.getElementById('log');
+
+			input.addEventListener('keydown', logKey);
+
+			function logKey(e) {
+				log.textContent += `${e.code}`;
+				console.log(e);
+			}
+		</script>
+	</body>
+</html>
