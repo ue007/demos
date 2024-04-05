@@ -1,0 +1,44 @@
+const { CdrReader, CdrSizeCalculator, CdrWriter } = require('@foxglove/cdr');
+
+const calc = new CdrSizeCalculator();
+calc.int8();
+calc.uint8();
+calc.int16();
+calc.uint16();
+calc.int32();
+calc.uint32();
+calc.int64();
+calc.uint64();
+calc.float32();
+calc.float64();
+calc.string('abc'.length);
+calc.sequenceLength();
+console.log(calc.size);
+
+const writer = new CdrWriter();
+writer.int8(-1);
+writer.uint8(2);
+writer.int16(-300);
+writer.uint16(400);
+writer.int32(-500_000);
+writer.uint32(600_000);
+writer.int64(-7_000_000_001n);
+writer.uint64(8_000_000_003n);
+writer.float32(-9.14);
+writer.float64(1.7976931348623158e100);
+writer.string('abc');
+writer.sequenceLength(0);
+
+const reader = new CdrReader(writer.data);
+console.log(reader.int8());
+console.log(reader.uint8());
+console.log(reader.int16());
+console.log(reader.uint16());
+console.log(reader.int32());
+console.log(reader.uint32());
+console.log(reader.int64());
+console.log(reader.uint64());
+console.log(reader.float32());
+console.log(reader.float64());
+console.log(reader.string());
+console.log(reader.sequenceLength());
