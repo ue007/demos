@@ -1,0 +1,68 @@
+{
+  "topicConfig": [
+    {
+      "topic": "/diagnostics",
+      "type": "diagnostic_msgs/DiagnosticArray"
+    },
+    {
+      "topic": "/rosout",
+      "type": "rosgraph_msgs/Log"
+    },
+    {
+      "topic": "/tf",
+      "type": "tf2_msgs/TFMessage"
+    },
+    {
+      "topic": "/gps/time",
+      "type": "sensor_msgs/TimeReference"
+    },
+    {
+      "topic": "/gps/rtkfix",
+      "type": "nav_msgs/Odometry"
+    },
+    {
+      "topic": "/velodyne_points",
+      "type": "sensor_msgs/PointCloud2"
+    },
+    {
+      "topic": "/radar/tracks",
+      "type": "radar_driver/RadarTracks"
+    },
+    {
+      "topic": "/cloud_nodelet/parameter_updates",
+      "type": "dynamic_reconfigure/Config"
+    },
+    {
+      "topic": "/image_raw",
+      "type": "sensor_msgs/Image"
+    },
+    {
+      "topic": "/radar/range",
+      "type": "sensor_msgs/Range"
+    },
+    {
+      "topic": "/radar/points",
+      "type": "sensor_msgs/PointCloud2"
+    },
+    {
+      "topic": "/cloud_nodelet/parameter_descriptions",
+      "type": "dynamic_reconfigure/ConfigDescription"
+    },
+    {
+      "topic": "/gps/fix",
+      "type": "sensor_msgs/NavSatFix"
+    },
+    {
+      "topic": "/obs1/gps/time",
+      "type": "sensor_msgs/TimeReference"
+    },
+    {
+      "topic": "/obs1/gps/rtkfix",
+      "type": "nav_msgs/Odometry"
+    },
+    {
+      "topic": "/velodyne_packets",
+      "type": "velodyne_msgs/VelodyneScan"
+    }
+  ]
+}

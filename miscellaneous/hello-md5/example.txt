@@ -1,0 +1,1 @@
+Before version 2.0.0 there were two packages called md5 on npm, one lowercase, one uppercase (the one you're looking at). As of version 2.0.0, all new versions of this module will go to lowercase md5 on npm. To use the correct version, users of this module will have to change their code from require('MD5') to require('md5') if they want to use versions >= 2.0.0.
