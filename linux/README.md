@@ -59,3 +59,5 @@ Linux 命令示例：http://linux-commands-examples.com/
 宝塔 Linux 面板：https://www.bt.cn/
 
 在线 Shell 脚本检查：https://www.shellcheck.net
+
+https://github.com/luong-komorebi/Awesome-Linux-Software
