@@ -1,0 +1,19 @@
+{
+	"liveServer.settings.port": 5501,
+	"cSpell.words": [
+		"camelcase",
+		"mcap",
+		"Msgdef",
+		"nargs",
+		"Protobuf",
+		"rosbag",
+		"rosmsg",
+		"rosout",
+		"timerange",
+		"XVIZ",
+		"XVIZJSON"
+	],
+	"cSpell.enableFiletypes": [
+		"javascript"
+	]
+}

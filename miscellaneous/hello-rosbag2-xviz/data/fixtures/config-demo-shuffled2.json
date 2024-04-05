@@ -1,0 +1,12 @@
+{
+  "topicConfig": [
+    {
+      "topic": "/velodyne_points",
+      "type": "sensor_msgs/PointCloud2",
+      "converter": "XVIZFakePose",
+      "config": {
+        "xvizStream": "/vehicle_pose"
+      }
+    }
+  ]
+}

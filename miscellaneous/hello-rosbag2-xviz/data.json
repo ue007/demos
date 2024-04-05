@@ -1,0 +1,1036 @@
+[class Rosbag2]
+{ sec: 1585866235, nsec: 112411371 } { sec: 1585866239, nsec: 643508139 }
+startTime:[object Object] endTime:[object Object]
+topicDefs:[object Object],[object Object],[object Object]
+messageCounts:[object Map]
+messageCounts keys:[object Map Iterator]
+messageCounts values:[object Map Iterator]
+[32mBag contains 20 messages![0m
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 112411371 },
+  data: <Buffer 00 01 00 00 fb 65 86 5e 80 fa ae 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 112411371 },
+  data: <Buffer 00 01 00 00 fb 65 86 5e 80 fa ae 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866235, nsec: 112130688 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 0'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 112609068 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 30 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 112609068 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 30 00>,
+  value: { data: 'Hello, world! 0', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 612676998 },
+  data: <Buffer 00 01 00 00 fb 65 86 5e 2c e7 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 612676998 },
+  data: <Buffer 00 01 00 00 fb 65 86 5e 2c e7 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866235, nsec: 612230956 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 1'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 612975047 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 31 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 612975047 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 31 00>,
+  value: { data: 'Hello, world! 1', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 112742168 },
+  data: <Buffer 00 01 00 00 fc 65 86 5e f7 5a b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 112742168 },
+  data: <Buffer 00 01 00 00 fc 65 86 5e f7 5a b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866236, nsec: 112220919 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 2'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 113032123 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 32 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 113032123 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 32 00>,
+  value: { data: 'Hello, world! 2', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 612738925 },
+  data: <Buffer 00 01 00 00 fc 65 86 5e f1 a8 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 612738925 },
+  data: <Buffer 00 01 00 00 fc 65 86 5e f1 a8 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866236, nsec: 612215025 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 3'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 613084249 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 33 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 613084249 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 33 00>,
+  value: { data: 'Hello, world! 3', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 112740229 },
+  data: <Buffer 00 01 00 00 fd 65 86 5e 57 77 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 112740229 },
+  data: <Buffer 00 01 00 00 fd 65 86 5e 57 77 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866237, nsec: 112228183 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 4'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 113144533 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 34 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 113144533 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 34 00>,
+  value: { data: 'Hello, world! 4', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 612773519 },
+  data: <Buffer 00 01 00 00 fd 65 86 5e 98 ba 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 612773519 },
+  data: <Buffer 00 01 00 00 fd 65 86 5e 98 ba 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866237, nsec: 612219544 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 5'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 613243815 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 35 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 613243815 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 35 00>,
+  value: { data: 'Hello, world! 5', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 112665606 },
+  data: <Buffer 00 01 00 00 fe 65 86 5e 3b 54 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 112665606 },
+  data: <Buffer 00 01 00 00 fe 65 86 5e 3b 54 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866238, nsec: 112219195 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 6'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 112976087 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 36 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 112976087 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 36 00>,
+  value: { data: 'Hello, world! 6', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 612767616 },
+  data: <Buffer 00 01 00 00 fe 65 86 5e e8 cf 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 612767616 },
+  data: <Buffer 00 01 00 00 fe 65 86 5e e8 cf 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866238, nsec: 612225000 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 7'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 613186119 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 37 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 613186119 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 37 00>,
+  value: { data: 'Hello, world! 7', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 112740553 },
+  data: <Buffer 00 01 00 00 ff 65 86 5e 03 73 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 112740553 },
+  data: <Buffer 00 01 00 00 ff 65 86 5e 03 73 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866239, nsec: 112227075 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 8'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 113147889 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 38 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 113147889 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 38 00>,
+  value: { data: 'Hello, world! 8', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 612761798 },
+  data: <Buffer 00 01 00 00 ff 65 86 5e aa d7 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 612761798 },
+  data: <Buffer 00 01 00 00 ff 65 86 5e aa d7 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866239, nsec: 612226986 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 9'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 643508139 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 39 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 643508139 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 39 00>,
+  value: { data: 'Hello, world! 9', author: 'Jeff' }
+}
+[class Rosbag2]
+{ sec: 1585866235, nsec: 112411371 } { sec: 1585866239, nsec: 643508139 }
+startTime:[object Object] endTime:[object Object]
+topicDefs:[object Object],[object Object],[object Object]
+messageCounts:[object Map]
+messageCounts keys:[object Map Iterator]
+messageCounts values:[object Map Iterator]
+[32mBag contains 20 messages![0m
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 112411371 },
+  data: <Buffer 00 01 00 00 fb 65 86 5e 80 fa ae 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 112411371 },
+  data: <Buffer 00 01 00 00 fb 65 86 5e 80 fa ae 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866235, nsec: 112130688 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 0'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 112609068 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 30 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 112609068 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 30 00>,
+  value: { data: 'Hello, world! 0', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 612676998 },
+  data: <Buffer 00 01 00 00 fb 65 86 5e 2c e7 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 612676998 },
+  data: <Buffer 00 01 00 00 fb 65 86 5e 2c e7 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866235, nsec: 612230956 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 1'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 612975047 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 31 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866235, nsec: 612975047 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 31 00>,
+  value: { data: 'Hello, world! 1', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 112742168 },
+  data: <Buffer 00 01 00 00 fc 65 86 5e f7 5a b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 112742168 },
+  data: <Buffer 00 01 00 00 fc 65 86 5e f7 5a b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866236, nsec: 112220919 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 2'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 113032123 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 32 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 113032123 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 32 00>,
+  value: { data: 'Hello, world! 2', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 612738925 },
+  data: <Buffer 00 01 00 00 fc 65 86 5e f1 a8 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 612738925 },
+  data: <Buffer 00 01 00 00 fc 65 86 5e f1 a8 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866236, nsec: 612215025 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 3'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 613084249 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 33 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866236, nsec: 613084249 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 33 00>,
+  value: { data: 'Hello, world! 3', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 112740229 },
+  data: <Buffer 00 01 00 00 fd 65 86 5e 57 77 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 112740229 },
+  data: <Buffer 00 01 00 00 fd 65 86 5e 57 77 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866237, nsec: 112228183 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 4'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 113144533 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 34 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 113144533 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 34 00>,
+  value: { data: 'Hello, world! 4', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 612773519 },
+  data: <Buffer 00 01 00 00 fd 65 86 5e 98 ba 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 612773519 },
+  data: <Buffer 00 01 00 00 fd 65 86 5e 98 ba 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866237, nsec: 612219544 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 5'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 613243815 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 35 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866237, nsec: 613243815 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 35 00>,
+  value: { data: 'Hello, world! 5', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 112665606 },
+  data: <Buffer 00 01 00 00 fe 65 86 5e 3b 54 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 112665606 },
+  data: <Buffer 00 01 00 00 fe 65 86 5e 3b 54 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866238, nsec: 112219195 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 6'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 112976087 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 36 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 112976087 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 36 00>,
+  value: { data: 'Hello, world! 6', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 612767616 },
+  data: <Buffer 00 01 00 00 fe 65 86 5e e8 cf 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 612767616 },
+  data: <Buffer 00 01 00 00 fe 65 86 5e e8 cf 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866238, nsec: 612225000 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 7'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 613186119 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 37 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866238, nsec: 613186119 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 37 00>,
+  value: { data: 'Hello, world! 7', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 112740553 },
+  data: <Buffer 00 01 00 00 ff 65 86 5e 03 73 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 112740553 },
+  data: <Buffer 00 01 00 00 ff 65 86 5e 03 73 b0 06 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866239, nsec: 112227075 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 8'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 113147889 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 38 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 113147889 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 38 00>,
+  value: { data: 'Hello, world! 8', author: 'Jeff' }
+}
+rawMessage: {
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 612761798 },
+  data: <Buffer 00 01 00 00 ff 65 86 5e aa d7 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>
+}
+{
+  topic: {
+    name: '/rosout',
+    type: 'rcl_interfaces/msg/Log',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 612761798 },
+  data: <Buffer 00 01 00 00 ff 65 86 5e aa d7 7d 24 14 00 00 00 12 00 00 00 6d 69 6e 69 6d 61 6c 5f 70 75 62 6c 69 73 68 65 72 00 00 00 1e 00 00 00 50 75 62 6c 69 73 ... 126 more bytes>,
+  value: {
+    stamp: { sec: 1585866239, nsec: 612226986 },
+    level: 20,
+    name: 'minimal_publisher',
+    msg: "Publishing: 'Hello, world! 9'",
+    file: '/opt/ros2_ws/eloquent/src/ros2/examples/rclcpp/minimal_publisher/lambda.cpp',
+    function: 'operator()',
+    line: 38,
+    author: 'Jeff'
+  }
+}
+rawMessage: {
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 643508139 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 39 00>
+}
+{
+  topic: {
+    name: '/topic',
+    type: 'std_msgs/msg/String',
+    serializationFormat: 'cdr',
+    offeredQosProfiles: [ [Object] ]
+  },
+  timestamp: { sec: 1585866239, nsec: 643508139 },
+  data: <Buffer 00 01 00 00 10 00 00 00 48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21 20 39 00>,
+  value: { data: 'Hello, world! 9', author: 'Jeff' }
+}

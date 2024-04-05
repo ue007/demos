@@ -1,0 +1,40 @@
+{
+  "topicConfig": [
+    {
+      "topic": "/rosout",
+      "type": "rosgraph_msgs/Log"
+    },
+    {
+      "topic": "/turtle1/color_sensor",
+      "type": "turtlesim/Color"
+    },
+    {
+      "topic": "/tf_static",
+      "type": "tf2_msgs/TFMessage"
+    },
+    {
+      "topic": "/turtle2/color_sensor",
+      "type": "turtlesim/Color"
+    },
+    {
+      "topic": "/turtle1/pose",
+      "type": "turtlesim/Pose"
+    },
+    {
+      "topic": "/turtle2/pose",
+      "type": "turtlesim/Pose"
+    },
+    {
+      "topic": "/tf",
+      "type": "tf/tfMessage"
+    },
+    {
+      "topic": "/turtle2/cmd_vel",
+      "type": "geometry_msgs/Twist"
+    },
+    {
+      "topic": "/turtle1/cmd_vel",
+      "type": "geometry_msgs/Twist"
+    }
+  ]
+}
