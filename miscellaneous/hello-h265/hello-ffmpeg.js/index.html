@@ -1,0 +1,26 @@
+<html>
+	<head></head>
+	<body>
+		<script>
+			const worker = new Worker('./node_modules/ffmpeg.js/ffmpeg-worker-webm.js');
+			worker.onmessage = function (e) {
+				const msg = e.data;
+				switch (msg.type) {
+					case 'ready':
+						console.log('ready, run Command: run -version, please waiting...');
+						worker.postMessage({ type: 'run', arguments: ['-version'] });
+						break;
+					case 'stdout':
+						console.log(msg.data);
+						break;
+					case 'stderr':
+						console.log(msg.data);
+						break;
+					case 'done':
+						console.log(msg.data);
+						break;
+				}
+			};
+		</script>
+	</body>
+</html>
