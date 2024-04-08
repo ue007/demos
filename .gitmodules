@@ -4,3 +4,18 @@
 [submodule "robotics/ros2/ros2-code-examples"]
 	path = robotics/ros2/ros2-code-examples
 	url = https://github.com/alsora/ros2-code-examples.git
+[submodule "robotics/source/ros2"]
+	path = robotics/source/ros2
+	url = https://github.com/ros2/ros2.git
+[submodule "robotics/source/rclcpp"]
+	path = robotics/source/rclcpp
+	url = https://github.com/ros2/rclcpp.git
+[submodule "robotics/source/rviz"]
+	path = robotics/source/rviz
+	url = https://github.com/ros2/rviz.git
+[submodule "robotics/ros2/demos"]
+	path = robotics/ros2/demos
+	url = https://github.com/ros2/demos.git
+[submodule "robotics/source/rosbag2"]
+	path = robotics/source/rosbag2
+	url = https://github.com/ros2/rosbag2.git
