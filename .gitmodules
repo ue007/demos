@@ -1,3 +1,6 @@
 [submodule "opencv/opencv_tutorials"]
 	path = opencv/opencv_tutorials
 	url = https://github.com/JimmyHHua/opencv_tutorials.git
+[submodule "robotics/ros2/ros2-code-examples"]
+	path = robotics/ros2/ros2-code-examples
+	url = https://github.com/alsora/ros2-code-examples.git
