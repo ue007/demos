@@ -19,3 +19,6 @@
 [submodule "robotics/source/rosbag2"]
 	path = robotics/source/rosbag2
 	url = https://github.com/ros2/rosbag2.git
+[submodule "fairygui/FairyGUI-threejs"]
+	path = fairygui/FairyGUI-threejs
+	url = https://github.com/fairygui/FairyGUI-threejs.git
