@@ -22,3 +22,6 @@
 [submodule "fairygui/FairyGUI-threejs"]
 	path = fairygui/FairyGUI-threejs
 	url = https://github.com/fairygui/FairyGUI-threejs.git
+[submodule "puerts/puerts"]
+	path = puerts/puerts
+	url = https://github.com/Tencent/puerts.git
