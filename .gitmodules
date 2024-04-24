@@ -25,3 +25,6 @@
 [submodule "puerts/puerts"]
 	path = puerts/puerts
 	url = https://github.com/Tencent/puerts.git
+[submodule "opencv/learnopencv"]
+	path = opencv/learnopencv
+	url = https://github.com/spmallick/learnopencv.git
