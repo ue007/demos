@@ -61,3 +61,12 @@ Linux 命令示例：http://linux-commands-examples.com/
 在线 Shell 脚本检查：https://www.shellcheck.net
 
 https://github.com/luong-komorebi/Awesome-Linux-Software
+
+
+- https://github.com/torvalds/linux
+- https://github.com/dibingfa/flash-linux0.11-talk
+- https://github.com/jaywcjlove/linux-command
+- https://github.com/judasn/Linux-Tutorial
+- https://github.com/luong-komorebi/Awesome-Linux-Software
+- https://zhuanlan.zhihu.com/p/420311740
+- https://github.com/fmtlib/fmt
