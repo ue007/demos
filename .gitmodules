@@ -28,3 +28,6 @@
 [submodule "opencv/learnopencv"]
 	path = opencv/learnopencv
 	url = https://github.com/spmallick/learnopencv.git
+[submodule "robotics/slambook2"]
+	path = robotics/slambook2
+	url = https://github.com/gaoxiang12/slambook2.git
