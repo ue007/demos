@@ -1,0 +1,22 @@
+{
+	"name": "hello-ocular-dev-tools",
+	"version": "1.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"bootstrap": "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true yarn && ocular-bootstrap",
+		"build": "ocular-clean && ocular-build",
+		"lint": "ocular-lint",
+		"metrics": "ocular-metrics",
+		"publish": "ocular-publish",
+		"test": "ocular-test"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@probe.gl/test-utils": "^3.5.2",
+		"ocular-dev-tools": "^0.3.1",
+		"reify": "^0.20.12"
+	}
+}
