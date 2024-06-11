@@ -34,3 +34,12 @@
 [submodule "robotics/rviz2/visualization_tutorial"]
 	path = robotics/rviz2/visualization_tutorial
 	url = https://github.com/ros-visualization/visualization_tutorials.git
+[submodule "robotics/rviz2/rviz_2d_overlay_plugins"]
+	path = robotics/rviz2/rviz_2d_overlay_plugins
+	url = https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
+[submodule "robotics/rviz2/cyberdog_rviz2_plugin"]
+	path = robotics/rviz2/cyberdog_rviz2_plugin
+	url = https://github.com/linzhibo/Cyberdog_rviz2_plugin.git
+[submodule "robotics/rviz2/rviz_plugin_tutorial"]
+	path = robotics/rviz2/rviz_plugin_tutorial
+	url = https://github.com/MetroRobots/rviz_plugin_tutorial.git
