@@ -31,3 +31,6 @@
 [submodule "robotics/slambook2"]
 	path = robotics/slambook2
 	url = https://github.com/gaoxiang12/slambook2.git
+[submodule "robotics/rviz2/visualization_tutorial"]
+	path = robotics/rviz2/visualization_tutorial
+	url = https://github.com/ros-visualization/visualization_tutorials.git
