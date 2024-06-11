@@ -43,3 +43,9 @@
 [submodule "robotics/rviz2/rviz_plugin_tutorial"]
 	path = robotics/rviz2/rviz_plugin_tutorial
 	url = https://github.com/MetroRobots/rviz_plugin_tutorial.git
+[submodule "robotics/ros-perception/image_transport_plugins"]
+	path = robotics/ros-perception/image_transport_plugins
+	url = https://github.com/ros-perception/image_transport_plugins.git
+[submodule "robotics/rviz2/rviz_sonar_image"]
+	path = robotics/rviz2/rviz_sonar_image
+	url = https://github.com/rolker/rviz_sonar_image.git
