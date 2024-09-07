@@ -2,6 +2,8 @@
     "files.associations": {
         "thread": "cpp",
         "vector": "cpp",
-        "map": "cpp"
-    }
+        "map": "cpp",
+        "iostream": "cpp"
+    },
+    "ros.distro": "rolling"
 }
